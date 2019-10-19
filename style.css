@@ -1,6 +1,6 @@
 body {
-  font-family: 'Jomolhari', serif;
-  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
   line-height: 34px;
   color:black;
   background: url("assets/concrete_seamless.png");
@@ -33,7 +33,7 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: 'Jomolhari', serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   color: black;
 }
@@ -42,7 +42,7 @@ h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid rgb(117, 221, 221);
+  border-bottom: 3px solid black;
 }
 
 h2,
@@ -67,14 +67,14 @@ h3 {
   float: left;
   width: 300px;
   height: 90px;
-  font-family: 'Jomolhari', serif;
-  font-size: 26px;
+  font-family: 'Caveat', cursive;
+  font-size: 42px;
   font-weight: 700;
   line-height: 90px;
   color:black;
   text-align: center;
   text-decoration: none;
-  background: rgba(0, 178, 190, 0.596);
+  background: rgba(245, 245, 220, 0.438);
 }
 
 nav {
@@ -101,7 +101,8 @@ nav a:first-child {
 footer {
   padding: 30px 0;
   clear: both;
-  font-size: 12px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
   color: black;
   color: black;
   text-align: center;
@@ -160,6 +161,7 @@ h3, h2 {
   width: 100%;
   padding: 15px;
   margin-bottom: 0;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   line-height: 30px;
   color: black;
@@ -190,6 +192,7 @@ label,
 input[type=text],
 input[type=email],
 textarea {
+  font-family: 'Josefin Sans', sans-serif;
   display: block;
   width: 100%;
 }
@@ -197,10 +200,11 @@ textarea {
 input[type=text],
 input[type=email],
 textarea {
+  font-family: 'Caveat', cursive;
   height: 35px;
   padding: 0 10px;
   font-size: 14px;
-  border: 1px solid black;
+  border: 1px solid rgb(117, 221, 221);
 }
 
 textarea {
@@ -209,10 +213,11 @@ textarea {
 
 input[type=submit] {
   padding: 10px 30px;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
   color: black;
   cursor: pointer;
-  background: rgb(117, 221, 221);
+  background: beige;
   border: 0 none;
 }
 
